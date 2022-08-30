@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 001</title>
+</head>
+<body>
+    <header class="head"><a href="../index.html">VOLTAR!</a></header>
+    <div class="title"><h1>Banco de dados "contratação"</h1></div>
+    <div class="view">
+        <div class="main">
+
+            <label for="">Qual é a idade:</label>
+            <input class="text" type="number" id="age" placeholder="ex: 20" value="" required>
+            
+            <label for="">Qual o sexo:</label>
+            <div class="check">
+                <label>Homem: </label>
+                <input type="checkbox" name="sex" value="sex-h">
+                <label>Mulher: </label>
+                <input type="checkbox" name="sex" value="sex-f">
+            </div>
+            
+            <label for="">Possui experiencia:</label>
+            <div class="check">
+                <label>Sim: </label>
+                <input type="checkbox" name="exp" value="s">
+                <label>Não: </label>
+                <input type="checkbox" name="exp" value="n">
+            </div>
+
+            <button type="submit" class="btn" id="add">add</button>
+
+        </div>
+        <div class="res">
+            <span id="info">AQUARDANDO ENTRADA DE DADOS!</span>
+            <button class="btn btn-show" onclick="pressShow()">Mostrar</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

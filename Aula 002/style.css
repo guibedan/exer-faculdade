@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.view {
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title > h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+.head {
+    background-color: #fff;
+    width: 100vw;
+    height: 10vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.head > a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0px 20px 0px;
+}
+
+.text {
+    width: 17vw;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.main > label {
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Roboto mono, sans-serif;
+}
+
+.check > label {
+    font-size: 15px;
+    font-family: Roboto mono, sans-serif;
+    margin-left: 5px;
+}
+
+.check {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.main > input::placeholder {
+    color: rgb(119, 119, 119);
+}
+
+.btn {
+    margin-top: 20%;
+    background-color: #8282FF;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8282ffbe;
+}
+
+.btn-show {
+    margin-top: 30%;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0px 20px 0px;
+}
+
+#info {
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
