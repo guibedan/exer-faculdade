@@ -67,10 +67,30 @@ body {
     padding-left: 10px;
 }
 
-.main > label {
+.form-1 > label {
     font-size: 20px;
     margin-top: 30px;
     font-family: Roboto mono, sans-serif;
+}
+
+.form-2 > label {
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Roboto mono, sans-serif;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-2 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .check > label {
@@ -103,7 +123,7 @@ body {
 }
 
 .btn-show {
-    margin-top: 30%;
+    margin-top: 32%;
 }
 
 .res {
@@ -123,4 +143,9 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 13px;
+    margin-top: 10px;
+}
+
+.fucTitle{
+    font-size: none;
 }

@@ -19,7 +19,7 @@ document.getElementById('add').addEventListener("click", function(e){
 
     e.preventDefault();
 
-    const fields = document.querySelectorAll("[required]");
+    /*const fields = document.querySelectorAll("[required]");
 
     function validateField(field) {
 
@@ -39,7 +39,7 @@ document.getElementById('add').addEventListener("click", function(e){
         
     
         return verify()
-    }
+    }*/
 
     var i=0;
     if( i == 0) {
@@ -117,7 +117,7 @@ function pressShow() {
     let res45 = h45/quantH*100;
     if(res == "NaN"){res=0}
     if(m35 == 0){m35="Sem dados"}
-    if(h45 == 0) {h45=" Sem dados"}
+    if(h45 == "NaN") {h45=" Sem dados"}
     if(mIm == 999) {mIm=" Sem dados"}
     //console.log(`quantidade ${quantHExp} totalidade ${ageHExp} res ${res}  totalage ${totalAge}`)
     span.innerHTML = `Quantidade de homens: ${quantH} <br/><br/>Quantidade de mulheres: ${quantF}

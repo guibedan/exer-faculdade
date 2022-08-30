@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Aula 001</title>
+    <title>Aula 002</title>
 </head>
 <body>
     <header class="head"><a href="../index.html">VOLTAR!</a></header>
     <div class="title"><h1>Controle de Departamentos</h1></div>
     <div class="view">
         <div class="main">
-            <h2>Departamento <span id="deph2">1</span></h2>
+            <h2 id="Title">Departamento <span id="deph2">1</span></h2>
 
-            <label>Numero de funcionarios:</label>
-            <input class="text" type="number" id="dep" placeholder="ex: 20" value="" required>
+            <div class="form-1">
+                <label class="depTitle">Numero de funcionarios:</label>
+                <input class="text" type="number" id="dep" placeholder="ex: 20" value="" required>
+            </div>
             
-            <label>Salario do funcionario <span id="funcf">1</span>:</label>
-            <input class="text" type="number" id="func" placeholder="ex: 20" value="" required>
+            <div class="form-2">
+                <label class="fucTitle">Salario do funcionario <span id="funcf">1</span>:</label>
+                <input class="text" type="number" id="func" placeholder="ex: R$1000,00" value="" required>
+            </div>
             
 
-            <button type="submit" class="btn" id="add">add</button>
+            <button type="submit" class="btn" id="add">adicionar</button>
 
         </div>
         <div class="res">
