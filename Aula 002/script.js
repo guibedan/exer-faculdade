@@ -34,8 +34,10 @@ document.getElementById('add').addEventListener("click", function(e){
         
         var funcS = document.getElementById('func');
         funcNum = Number(funcS.value);
+        let gNumb = funcNum;
+        if (gNumb != 0) {
         num = num + funcNum;
-        //console.log(num);
+        console.log(num);
         if(funcNum>maiorSal){
             maiorSal=funcNum;
             idMaior= ll;
@@ -73,6 +75,7 @@ document.getElementById('add').addEventListener("click", function(e){
             btn.style.display = 'none';
             deph2.innerHTML= "";
         } 
+    }
 
 
     
